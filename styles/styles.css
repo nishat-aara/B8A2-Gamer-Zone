@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box
+}
+/* work sans font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* this is navbar */
+
+.nav-container{
+   min-height: 50px;
+   display: flex;
+   align-items: center;
+   
+}
+.logo-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+}
+.logo-container img{
+   
+    width: 86.041px;
+    height: 40px;
+    object-fit: cover;
+   
+}
+.logo-container p{
+    font-size: 2.8rem;
+    font-weight: 700;
+    width: 147px;
+    height: 53px;
+}
+.g-section{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.item-container{
+    width: 50%;
+    display: flex;
+    gap: 32px;
+    padding-left: 130px;
+}
+.item-container a{
+    text-decoration: none;
+}
