@@ -1,6 +1,10 @@
 *{
     box-sizing: border-box
 }
+*{
+    margin: 0px;
+    padding: 0px;
+}
 /* work sans font from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
@@ -11,17 +15,21 @@
 /* this is navbar */
 
 .nav-container{
-   min-height: 50px;
+   height: 130px;
    display: flex;
    align-items: center;
+   background: #FFF;
+   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
    
+  
 }
+
 .logo-container{
     display: flex;
     gap: 20px;
     align-items: center;
     width: 50%;
-    justify-content: center;
+    padding-left: 160px;
 }
 .logo-container img{
    
@@ -47,8 +55,22 @@
     width: 50%;
     display: flex;
     gap: 32px;
-    padding-left: 130px;
+    align-items: center;
 }
 .item-container a{
     text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
 }
+.follow-btn{
+    display:flex ;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background-color:rgba(11, 2, 35, 0.10);
+    border-radius: 8px;
+    width: 262px;
+    height: 56px;
+} 
+   
