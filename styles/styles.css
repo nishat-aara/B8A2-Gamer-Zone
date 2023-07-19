@@ -105,7 +105,7 @@
     font-size:3rem;
     font-weight: 600;
    }
-    .banner-text p{
+    .banner-text p , .funny{
         background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
         background-clip: text;
         -webkit-background-clip: text;
@@ -153,7 +153,79 @@
        border-radius: 15px;
         
      }
-     
+     /* this is games styles */
+     .games-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:30%;
+        height:75vh ;
+        margin: auto;
+        gap: 13px;
+        margin: 10px 10px 1 ;
+    }  
+    .games{
+        
+        width: 60%;
+        align-items: center;
+        margin: auto;
+    }
+    .description{
+        color: #534C64;
+       text-align: center;
+         margin-bottom: 70px;
+        font-size: 18px;
+         font-weight: 400;
+        
+    }
+    .games-titel ,.funny{
+        color: #0B0223;
+        text-align: center;
+        margin-top: 90px;
+        font-size: 48px;
+       
+        font-weight: 700;
+    }
+    .games-container{
+        align-items: center;
+        padding-top: 35px;
+    }
+     .online-img{
+        position: relative;
+        width: 50%;
+     }
+     .image{
+        opacity: 1;
+        display: block;
+        
+        transition: 5s ease;
+        backface-visibility: hidden;
+     }
+     .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 90%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      .online-img:hover .image {
+        opacity: 0.2;
+      }
+      
+      .online-img:hover .middle {
+        opacity: 1;
+      }
+      p{
+        color: #ee2176;
+        font-size: 20px;
+        font-weight: 800;
+      }
+
+
+
    
    
    
@@ -216,6 +288,22 @@
         margin-right: 500px;
         border-left: 1px solid #FF42A5 ;
      }
+     .games-container{
+        width: 100%;
+        height: 50%;
+     }
+
+     .games-img{
+        flex-direction: column;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin: auto;
+       
+        }
+
+      
    }
 
    
@@ -249,5 +337,17 @@
    .banner-text p{
     font-size: 4rem;
 }
-
+.games-container{
+    width: 100%;
+    height: 50%;
+ }
+ .games-img{
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: auto;
+    gap: 7px;
+    }
 }
