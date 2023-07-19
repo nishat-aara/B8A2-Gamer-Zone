@@ -273,6 +273,19 @@
         font-weight: 400;
         
      }
+     .container{
+        display: grid;
+            grid-template-columns: repeat(4,1fr);
+            
+            gap: 5px;
+     }
+     .item{
+        display: flex;
+     }
+     footer{
+        background-color: #0d022c;
+        color: #FFF;
+     }
    
    
    
@@ -349,7 +362,23 @@
         margin: auto;
        
         }
-
+      .play-section{
+        flex-direction: column;
+        margin-top: 10px;
+        
+       
+      }  
+      .play-img img{
+        width: 100%;
+      }
+      .play-content{
+        width: 60%;
+        align-items:center;
+            margin:auto;
+            margin-left: auto;
+            text-align: center;
+        
+      }
       
    }
 
@@ -397,4 +426,21 @@
     margin: auto;
     gap: 7px;
     }
+    .play-section{
+        flex-direction: column;
+        margin-top: 10px;
+        
+       
+      }  
+      .play-img img{
+        width: 100%;
+      }
+      .play-content{
+        width: 50%;
+        align-items:center;
+            margin:auto;
+            margin-left: auto;
+            text-align: center;
+        
+      }
 }
