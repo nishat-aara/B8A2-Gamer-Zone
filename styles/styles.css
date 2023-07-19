@@ -1,10 +1,7 @@
 *{
     box-sizing: border-box
 }
-*{
-    margin: 0px;
-    padding: 0px;
-}
+
 /* work sans font from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
@@ -73,4 +70,51 @@
     width: 262px;
     height: 56px;
 } 
+   /* navbar end */
+
+
+
+
+
+   /* small device responsive */
+   @media screen and (max-width:576px){
+    .nav-container{
+        flex-direction: column;
+    }
+
+    .item-container{
+        flex-direction: column;
+    }
+    .logo-container img{
    
+        width: 48px;
+        height: 20px;
+       
+    }
+    .logo-container p{
+        font-size: 1.5rem;
+        font-weight: 700;
+        width: 73px;
+        height: 26px;
+    }
+    .nav-container{
+        width: 100%;
+        margin: 0,auto;
+    }
+    .logo-container{
+        padding-right: 250px;
+    }
+   }
+
+   /* medium device responsive */
+   @media screen and (min-width:576px) and (max-width:992px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .item-container{
+        flex-direction: column;
+    }
+    .logo-container{
+        padding-right: 350px;
+    }
+   }
