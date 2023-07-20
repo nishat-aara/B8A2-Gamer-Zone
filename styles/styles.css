@@ -611,10 +611,10 @@
         flex-direction: column;
         margin-top: 80px;
         margin-bottom: 50px;
-       height: 1300px;
+       
       }  
       .play-img img{
-        width: 90%;
+        width: 100%;
         margin: auto;
       }
 
@@ -631,8 +631,11 @@
          margin:auto;
          margin-left: auto;
         text-align: center;
+        padding-top: 300px;
     }
-
+     .play-img{
+        padding-bottom: 100px;
+     }
     .container{
         width: 100%;
         height: auto;
