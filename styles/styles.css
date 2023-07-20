@@ -163,10 +163,10 @@
         margin: auto;
         gap: 13px;
         margin: 10px 10px 1 ;
-        margin-top: 50px;
+        margin-top: 100px
     }  
     .games{
-        
+        margin-top:500px ;
         width: 60%;
         align-items: center;
         margin: auto;
@@ -189,7 +189,7 @@
     }
     .games-container{
         align-items: center;
-        padding-top: 35px;
+        padding-bottom: 150px;
     }
      .online-img{
         position: relative;
@@ -227,6 +227,7 @@
 
      /* play-section */
      .play-section{
+        height: 50%;
         display: flex;
         margin-top: 50px;
         gap: 146px;
@@ -237,6 +238,10 @@
       .play-img img{
         height: 80%;
         margin-right: 300px;}
+
+     .play-img{
+        margin-top: 300px;
+     }
 
     .small-img{
         width: 400px;
@@ -272,29 +277,51 @@
         font-weight: 400;
     }
 
-     /* action games section
+        /* action games secion */
+
      .container{
         height: 427px;
         grid-template-columns: repeat(5,1fr);
          background-color: hsla(0, 82%, 70%, 0.1); 
          display: grid;
-        gap:30px;
+        gap:0px;
+        padding: 0px;
+        margin: 0px;
+        padding-bottom: 30px;
+        padding-top: 40px;
+        padding-left: 80px;
+        padding-right: 80px;
       }
       .item{
          display: flex;
-         column-gap: 5px;
+         justify-content: center;
+         gap: 50px;
+         column-gap: 0px;
+         align-items: center;
  
+      }
+      .item:hover{
+        
+        border: 1px solid #FF42A5;
+        border-radius: 50px;
+        background: #FFF;
+        
+      }
+      .games-text:hover{
+         color: #FF42A5;
       }
       .games-text{
          color: #0B0223;
         font-size: 20px;
         font-weight: 600;
+        padding-right: 80px;
       }
       .games-img{
          height: 60px;
          width: 60px;
-      } */
-      /* footer section */
+      } 
+
+     /* footer section */
 
      footer{
        
@@ -358,13 +385,9 @@
 
         
     
-        
-    
    
    
-   
-   
-    /* small device responsive */
+/* small device responsive */
    @media screen and (max-width:576px){
     .nav-container{
         flex-direction: column;
@@ -425,6 +448,7 @@
      .games-container{
         width: 100%;
         height: 50%;
+        
      }
 
      .games-img{
@@ -445,6 +469,10 @@
       .play-img img{
         width: 80%;
         margin-right: 0px;
+        height: 10%;
+      }
+      .play-img{
+        
       }
        .small-img{
          width: auto;
@@ -456,8 +484,9 @@
             margin:auto;
             margin-left: auto;
             text-align: center;
-        
+          
       }
+     
       .container{
         width: 80%;
         height: auto;
@@ -465,8 +494,8 @@
         margin-bottom: 200px;
         padding-top:0px;
         padding-bottom: 0px;
-        padding-left: 20px;
-        padding-right:40px;
+        padding-left: 0px;
+        padding-right:0px;
         display: grid;
         grid-template-columns: repeat(3,1fr)  ;
         background-color: white;
@@ -476,6 +505,7 @@
         
        font-size: 16px;
        font-weight: 400;
+       padding-left: 10px;
      }
      .games-img{
         height: auto;
@@ -565,7 +595,9 @@
 .games-container{
     width: 100%;
     height: 50%;
+    padding-bottom:20px ;
  }
+ 
  .games-img{
     flex-direction: column;
     width: 100%;
@@ -605,22 +637,24 @@
         width: 100%;
         height: auto;
         top:100px;
-        padding-left: 30px;
-        padding-right:30px;
+        padding-left: 0px;
+        padding-right:0px;
         display: grid;
         grid-template-columns: repeat(3,1fr)  ;
         background-color: rgb(253, 244, 244);
-        gap: 30px;
-        margin-bottom: 100px;
+        gap: 6px;
+        margin-bottom: px;
      }
      .games-text{
         
         font-size: 18px;
         font-weight: 400;
+        padding-left:5px ;
       }
       .games-img{
          height: auto;
          width: 40px;
+         padding-left: 20px;
        }
        .item{
        
@@ -630,6 +664,7 @@
 
      footer{
         width: 100%;
+        margin: auto;
       }
       .icons{
         margin-top: 20px;
